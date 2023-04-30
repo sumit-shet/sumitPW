@@ -1,0 +1,19 @@
+body{
+    background-color: pink;
+}
+div{
+    text-align: center;
+    font-size: x-large;
+}
+div::after{
+    content: "welcome to demo";
+}
+
+@media (min-width: 900px){
+    body{
+        background-color: #fff;
+    }
+    div::after{
+        content: "woh what happened";
+    }
+}

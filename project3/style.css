@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Tilt Warp', 'cursive';
+    box-sizing: border-box;
+    
+    
+}
+body{
+    height: 100%;
+
+}
+
+.hero-img{
+
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url(/project3/pexels-roman-odintsov-4551198.jpg);
+    
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+   
+}
+nav a img{
+    margin: 20px 100px;
+    height: 80px;
+    width:90px;
+
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;;
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:goldenrod;
+    font-weight: 300;
+    border: 5px;
+    border-color: white;
+}
+nav ul li a:hover{
+    text-decoration: underline ;
+    text-indent: 100px;
+    
+}
+
+nav button{
+    margin: 20px 50px;
+    padding: 10px 30px;
+    background-color: rgb(226, 63, 63);
+    color: white;
+    font-weight: 500;
+    border: 1px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+    
+}
+nav button:hover{
+    background-color: white;
+    color: rgb(226, 63, 63);
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+;
+}
+.main h1{
+    text-align: center;
+    font-weight:500 ;
+    color: rgb(230, 196, 4);
+    font-size: 90px;
+
+}
+.main button{
+    margin: 40px;
+    padding: 20px 40px;
+    color: white;
+    background-color: rgb(226, 63, 63);
+    border: 1px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+
+}
+.main button:hover{
+    background-color: white;
+    color: rgb(226, 63, 63);
+    
+}
+.main button::before{
+    transition: 100ms;
+}

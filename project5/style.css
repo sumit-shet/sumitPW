@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.bucket{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+nav{
+    display: flex;
+    height: 10vh;
+    background-color:black;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+nav img{
+    margin: 20% 2%;
+   
+}
+ul{
+    width: 50%;
+    display: flex;
+    text-decoration: none;
+    gap: 60px;
+
+}
+nav ul li{
+    list-style: none;
+  
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+nav button{
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color:#BC2FCD ;
+    color: white;
+}
+main{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/project5/assets/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+main button{
+    padding: 20px 30px;
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color:#BC2FCD ;
+    color: white;
+    border: 1px;
+    margin-bottom: 10%;
+
+}
+main h1{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+main p{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}

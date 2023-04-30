@@ -1,0 +1,25 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: relative;
+    animation-name: colorchange;
+    animation-duration: 10s; 
+    animation-delay: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes colorchange {
+    0% {
+        background-color:rgb(179, 255, 0);
+        left: 0%;
+        right: 0%;
+    
+    }
+    50% {
+        background-color: rgb(177, 131, 138);
+        left: 200px;
+        right: 0%;
+    }
+    
+}
